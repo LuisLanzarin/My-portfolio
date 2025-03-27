@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+header{
+    color: #22D4FD;
+    display: flex;
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    align-items: center;
+}
+
+.cabecalho__logo{
+    width: 150px;
+    height: 150px;
+}
+
+.cabecalho__menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 4%;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    width: 200px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.conteudo{
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.biografia{
+    width: 615px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    font-size: 24px;
+}
+
+.biografia__titulo{
+    color: white;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.biografia__texto{
+    width: 615px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.biografia__destaque{
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rodape{
+    background-color: #22D4FD;
+    color: #000000;
+    padding: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+}
