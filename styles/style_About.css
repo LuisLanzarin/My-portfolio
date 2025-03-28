@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root{
+    --cor-primaria:  #FFFAEC;
+    --cor-secundaria: #59002a;
+    --cor-terciaria: #330000;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,16 +13,17 @@
 
 body{
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
 }
 
 header{
-    color: #22D4FD;
     display: flex;
     font-family: 'Krona One', sans-serif;
     font-size: 24px;
     align-items: center;
+    background-color: var(--cor-terciaria);
+    height: 150px;
 }
 
 .cabecalho__logo{
@@ -38,12 +45,13 @@ header{
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-primaria);
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     gap: 16px;
 }
+
 
 .conteudo{
     padding: 3% 15%;
@@ -62,7 +70,7 @@ header{
 }
 
 .biografia__titulo{
-    color: white;
+    color: var(--cor-secundaria);
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
 }
@@ -74,13 +82,13 @@ header{
 }
 
 .biografia__destaque{
-    color: #22D4FD;
+    color: var(--cor-secundaria);
     font-family: 'Montserrat', sans-serif;
 }
 
 .rodape{
-    background-color: #22D4FD;
-    color: #000000;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
     padding: 24px;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
