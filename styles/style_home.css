@@ -101,7 +101,7 @@ header{
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
     font-family: 'Montserrat', sans-serif;
     border: 2px solid var(--cor-terciaria);
     display: flex;
